@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://localhost:5000/sitemap.xml.gz
+Sitemap: https://denishsharma.github.io/petran-design-doc/sitemap.xml.gz
