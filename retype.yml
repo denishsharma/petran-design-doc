@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: localhost:5000
+url: https://denishsharma.github.io/petran-design-doc/
 
 server:
   host: localhost
