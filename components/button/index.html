@@ -16,22 +16,22 @@
     <meta property="og:url" content="https://denishsharma.github.io/petran-design-doc/components/button/">
     <meta property="og:title" content="Button | Petran Design System">
     <meta property="og:description" content="Buttons allow users to take actions, and make choices, with a single click.">
-    <meta property="og:image" content="https://denishsharma.github.io/petran-design-doc/petran-design-doc/static/button-showcase-states.png">
+    <meta property="og:image" content="https://denishsharma.github.io/petran-design-doc/petran-design-doc/static/images/button-showcase-states.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://denishsharma.github.io/petran-design-doc/components/button/">
     <meta property="twitter:title" content="Button | Petran Design System">
     <meta property="twitter:description" content="Buttons allow users to take actions, and make choices, with a single click.">
-    <meta property="twitter:image" content="https://denishsharma.github.io/petran-design-doc/petran-design-doc/static/button-showcase-states.png">
+    <meta property="twitter:image" content="https://denishsharma.github.io/petran-design-doc/petran-design-doc/static/images/button-showcase-states.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/petran-design-doc/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/petran-design-doc/resources/css/retype.css?v=1.11.2.697264308758" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/petran-design-doc/resources/css/retype.css?v=1.11.2.697289813097" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/petran-design-doc/resources/js/config.js?v=1.11.2.697264308758" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/petran-design-doc/resources/js/config.js?v=1.11.2.697289813097" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/petran-design-doc/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/petran-design-doc/resources/js/lunr.js?v=1.11.2.697264308758" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/petran-design-doc/resources/js/lunr.js?v=1.11.2.697289813097" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -174,7 +174,7 @@
 </doc-anchor-target>
 <p>Buttons allow users to take actions, and make choices, with a single click.</p>
 <p><figure class="content-center">
-    <img src="../../static/button-showcase-states.png" class="w-full" alt="" />
+    <img src="../../static/images/button-showcase-states.png" class="w-full" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -193,6 +193,52 @@
 <li>Toolbars</li>
 </ul>
 <p>&nbsp;</p>
+<doc-anchor-target id="live-component">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#live-component">#</doc-anchor-trigger>
+        <span>Live Component</span>
+    </h2>
+</doc-anchor-target>
+<p>
+<figure>
+    <div class="relative w-full mb-6 overflow-hidden" style="height: 120px; ">
+        <iframe class="w-full h-full border-0" src="/petran-design-doc/static/html/components/button/button-secondary-showcase.html" allowfullscreen></iframe>
+    </div>
+</figure>
+Interact with live button component. Button has scaled 1.2 times the actual size for better view. Button has following interaction:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Interaction</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rest</td>
+<td><code v-pre>None</code></td>
+</tr>
+<tr>
+<td>Hover</td>
+<td><code v-pre>Mouse Hover</code></td>
+</tr>
+<tr>
+<td>Active</td>
+<td><code v-pre>Mouse Click</code></td>
+</tr>
+<tr>
+<td>Focus</td>
+<td><code v-pre>Mouse Click</code></td>
+</tr>
+<tr>
+<td>Tab Focus</td>
+<td><code v-pre>KeyDown: Tab</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
 <doc-anchor-target id="variants">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#variants">#</doc-anchor-trigger>
@@ -200,7 +246,7 @@
     </h2>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../static/button-showcase-variants.png" class="w-full" alt="" />
+    <img src="../../static/images/button-showcase-variants.png" class="w-full" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -245,7 +291,7 @@
     </h2>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <img src="../../static/button-showcase-types.png" class="w-full" alt="" />
+    <img src="../../static/images/button-showcase-types.png" class="w-full" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -282,6 +328,68 @@
 </tbody>
 </table>
 </div>
+<p>&nbsp;</p>
+<doc-anchor-target id="specification">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#specification">#</doc-anchor-trigger>
+        <span>Specification</span>
+    </h2>
+</doc-anchor-target>
+<doc-panel id="size">
+    <template #title><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path fill-rule="evenodd" d="M12 16.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zm0 1.5a6 6 0 100-12 6 6 0 000 12z"/></g></g></svg> Size</template>
+<p><figure class="content-center">
+    <img src="../../static/images/button-showcase-sizes.png" class="w-full" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Properties <code v-pre>height</code> and <code v-pre>padding</code> defines the Button size. Below is the defined list of size configuration which are commonly used.</p>
+<p><strong>Note:</strong> Padding is applied only horizontally and not vertically.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Number</th>
+<th>Name</th>
+<th>Height</th>
+<th>Padding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code v-pre>sz-26</code></td>
+<td><code v-pre>26px</code></td>
+<td><code v-pre>10px</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code v-pre>sz-28</code></td>
+<td><code v-pre>28px</code></td>
+<td><code v-pre>10px</code></td>
+</tr>
+<tr>
+<td>3 (Default)</td>
+<td><code v-pre>sz-30</code></td>
+<td><code v-pre>30px</code></td>
+<td><code v-pre>12px</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code v-pre>sz-32</code></td>
+<td><code v-pre>32px</code></td>
+<td><code v-pre>14px</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code v-pre>sz-34</code></td>
+<td><code v-pre>34px</code></td>
+<td><code v-pre>16px</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Button with <code v-pre>OnlyIcon</code> has no padding and <code v-pre>width</code> is same as it&#x27;s height.</p>
+</doc-panel>
 
 
 
