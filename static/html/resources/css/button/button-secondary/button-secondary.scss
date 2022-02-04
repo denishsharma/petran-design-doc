@@ -1,0 +1,117 @@
+@import "../../variables";
+@import "../../utils";
+@import "../../pageBody";
+
+.button-secondary {
+  transform: scale(1.2);
+
+  appearance: none;
+  outline: 0;
+  font: inherit;
+
+  background-color: $color-white;
+  color: $color-gray-800;
+  cursor: pointer;
+  user-select: none;
+
+  height: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid $color-gray-300;
+  border-radius: 6px;
+
+  margin: 0;
+  padding: 0 12px;
+
+  font-size: 11.06px;
+  font-weight: 500;
+  letter-spacing: inherit;
+
+  transition: 120ms ease-in-out background-color, 120ms ease-in-out box-shadow,
+    120ms ease-in-out border-color;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    pointer-events: none;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 7px;
+    box-shadow: 0 0 0 1.5px $color-primary-500;
+    transform: scale(0.9);
+    opacity: 0;
+    transition: 120ms ease-in-out transform, 120ms ease-in-out opacity;
+  }
+
+  &:hover {
+    background-color: $color-gray-100;
+    box-shadow: 0px 0.1px 0.8px rgba(0, 0, 0, 0.025),
+      0px 1px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px transparentize($color-gray-200, 0.3);
+  }
+
+  &:active {
+    background-color: $color-gray-25;
+    box-shadow: 0 0 0 3px transparentize($color-gray-200, 0.1);
+  }
+
+  &:focus-visible {
+    box-shadow: none;
+    &::before {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .button-space {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &.with-icon {
+    .button-space {
+      gap: 6px;
+    }
+
+    &.icon-right {
+      .button-space {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+
+  &.only-icon {
+    padding: 0;
+    width: 30px;
+  }
+
+  &.indicator {
+    .button-space {
+      gap: 6px;
+
+      .button-indicator-space {
+        height: 16px;
+        width: 8px;
+        display: flex;
+        align-items: center;
+
+        .button-indicator {
+          height: 6px;
+          width: 6px;
+          border-radius: 10px;
+          background-color: $color-success-500;
+        }
+      }
+    }
+  }
+}
