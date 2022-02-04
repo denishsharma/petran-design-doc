@@ -15,7 +15,7 @@ These are the main colors that make up the majority of the color used in the des
 
 ### Base
 These are the base black and white color styles to quickly swap out if you need to.
---![](../static/base-color-swatch.png)--
+--![](../static/images/base-color-swatch.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ These are the base black and white color styles to quickly swap out if you need 
 
 ### Gray
 Gray is a neutral color and is the foundation of the color system. Almost everything in UI design — text, form fields, backgrounds, dividers — are usually gray.
---![](../static/gray-color-swatch-min.png)--
+--![](../static/images/gray-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ Gray is a neutral color and is the foundation of the color system. Almost everyt
 
 ### Primary
 The primary color defines the "brand" color, and is used across all interactive elements such as buttons, links, inputs, etc. This color can define the overall feel and can elicit emotion.
---![](../static/primary-color-swatch-min.png)--
+--![](../static/images/primary-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ The primary color defines the "brand" color, and is used across all interactive 
 
 ### Error
 Error colors are used across error states and in destructive actions. They communicate a destructive/negative action, such as removing an asset from the list.
---![](../static/error-color-swatch-min.png)--
+--![](../static/images/error-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Error colors are used across error states and in destructive actions. They commu
 
 ### Warning
 Warning colors can communicate that an action is potentially destructive or on-hold. These colors are commonly used in confirmations to grab the user's attention.
---![](../static/warning-color-swatch-min.png)--
+--![](../static/images/warning-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -106,7 +106,7 @@ Warning colors can communicate that an action is potentially destructive or on-h
 
 ### Success
 Success colors communicate a positive action, positive trend, or a successful confirmation.
---![](../static/success-color-swatch-min.png)--
+--![](../static/images/success-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -129,7 +129,7 @@ Along with primary colors, its helpful to have a selection of secondary colors t
 
 ### Gray Blue
 Can be swapped or used along with the primary gray color also in data visualization.
---![](../static/gray-blue-color-swatch-min.png)--
+--![](../static/images/gray-blue-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ Can be swapped or used along with the primary gray color also in data visualizat
 
 ### Gray Modern
 Can be swapped or used along with the primary gray color.
---![](../static/gray-modern-color-swatch-min.png)--
+--![](../static/images/gray-modern-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -169,7 +169,7 @@ Can be swapped or used along with the primary gray color.
 
 ### Gray Warm
 Can be used along with the primary gray color also in data visualization.
---![](../static/gray-warm-color-swatch-min.png)--
+--![](../static/images/gray-warm-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -189,7 +189,7 @@ Can be used along with the primary gray color also in data visualization.
 
 ### Green
 Can be used along with primary success color and in data visualization.
---![](../static/green-color-swatch-min.png)--
+--![](../static/images/green-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -209,7 +209,7 @@ Can be used along with primary success color and in data visualization.
 
 ### Blue
 Can be used along with primary color and in data visualization.
---![](../static/blue-color-swatch-min.png)--
+--![](../static/images/blue-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -229,7 +229,7 @@ Can be used along with primary color and in data visualization.
 
 ### Purple
 Can be used in data visualization and components states.
---![](../static/purple-color-swatch-min.png)--
+--![](../static/images/purple-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -249,7 +249,7 @@ Can be used in data visualization and components states.
 
 ### Pink
 Can be swapped or used along with primary error color and also in data visualization.
---![](../static/pink-color-swatch-min.png)--
+--![](../static/images/pink-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |
@@ -269,7 +269,7 @@ Can be swapped or used along with primary error color and also in data visualiza
 
 ### Orange
 Can be swapped or used along with primary warning color and also in data visualization.
---![](../static/orange-color-swatch-min.png)--
+--![](../static/images/orange-color-swatch-min.png)--
 
 | Variant | Color | Text Color |
 | --- | --- | --- |

@@ -65,7 +65,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-1.png)--
+--![](../static/images/inter-font-showcase-heading-1.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -84,7 +84,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-2.png)--
+--![](../static/images/inter-font-showcase-heading-2.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -103,7 +103,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-3.png)--
+--![](../static/images/inter-font-showcase-heading-3.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -122,7 +122,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-4.png)--
+--![](../static/images/inter-font-showcase-heading-4.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -141,7 +141,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-5.png)--
+--![](../static/images/inter-font-showcase-heading-5.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -160,7 +160,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-heading-6.png)--
+--![](../static/images/inter-font-showcase-heading-6.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -179,7 +179,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/600`
 |||
 
---![](../static/inter-font-showcase-paragraph.png)--
+--![](../static/images/inter-font-showcase-paragraph.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -198,7 +198,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-control-text.png)--
+--![](../static/images/inter-font-showcase-control-text.png)--
 
 | Variation | Font Weight |
 | --- | --- |
@@ -217,7 +217,7 @@ Sizes are generated using [Type-Scale](https://type-scale.com/?size=14&scale=1.1
 `Gray/800`
 |||
 
---![](../static/inter-font-showcase-caption.png)--
+--![](../static/images/inter-font-showcase-caption.png)--
 
 | Variation | Font Weight |
 | --- | --- |
